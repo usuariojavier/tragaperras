@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.slot-machine {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.coins {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.reels {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.reel {
+    font-size: 4rem;
+    width: 100px;
+    height: 100px;
+    border: 2px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e0e0e0;
+    border-radius: 10px;
+}
+
+#spin-button {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#spin-button:hover {
+    background-color: #45a049;
+}
+
+#spin-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+
+#result {
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+
+#game-over {
+    font-size: 1.5rem;
+    color: red;
+    margin-top: 20px;
+}
+
+.hidden {
+    display: none;
+}
